@@ -1,7 +1,7 @@
 package org.assignment.interview.emails;
 
-import org.assignment.interview.Response;
+import org.assignment.interview.Request;
 
 public interface EmailService {
-    void call(Response response);
+    void call(Request request);
 }
